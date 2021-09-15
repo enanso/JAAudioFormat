@@ -1,0 +1,16 @@
+PODS:
+  - JAAudioFormat (0.1.0)
+
+DEPENDENCIES:
+  - JAAudioFormat (from `../`)
+
+EXTERNAL SOURCES:
+  JAAudioFormat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JAAudioFormat: 390b994afbc75e9a78dc04aaaf884ad375c382c3
+
+PODFILE CHECKSUM: 078c23ba2b838106ac86a957efc458fd589bb005
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module Pods_JAAudioFormat_Example {
+  umbrella header "Pods-JAAudioFormat_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

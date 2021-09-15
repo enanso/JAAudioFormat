@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181E224B72B2931ACEC4FCBA79BCD657 /* Pods-JAAudioFormat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E0B294162F1520BF9B0A5CB8803C94 /* Pods-JAAudioFormat_Tests-dummy.m */; };
+		33BF318680A854DA7F4EE200EB5E9A5B /* ExtAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0987A70237AEB2967F9463C2A1F9F479 /* ExtAudioConverter.m */; };
+		3EF5949456030C86DC7BEBCBCA99E1EF /* Pods-JAAudioFormat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7AF4BD2649D12E6106823AE3B0BF53D /* Pods-JAAudioFormat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F382795E4B07E49877535A5AE5D2A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		549B46DD70C1BC129635C3A328B39DDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		604DDE8597696745B73455C7A29424DF /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C92916ACDC361E7D37860D266402A7F /* lame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C0F6C1977C26F2E5245F4BA28B7C1D /* JAAudioFormat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA687C01CDBAF498C29439EAFD1E706 /* JAAudioFormat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95EBD77AD80C2A1040FC604ADA8DEA29 /* JAAudioFormat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C08614096FCBB0AE87458C60882A917A /* JAAudioFormat-dummy.m */; };
+		9DF42895258FB8BDDABAC5DAFA8904D4 /* Pods-JAAudioFormat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95CADB2B16EE38F09A4F972F64A07F1A /* Pods-JAAudioFormat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8BA7F161208211DE45DE8D20BFEDA10 /* Pods-JAAudioFormat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B14CE7B1D50735223AD377CA6FD2151B /* Pods-JAAudioFormat_Example-dummy.m */; };
+		F08EA8A6B0FC2739E612E4C4C63522E2 /* ExtAudioConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4604B9FD415EE240D4F524BFA1C25A /* ExtAudioConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2884144A4BB2F0E4885292AAF81F2B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56617AD84296A989EFF174B9E1258A53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF933F478486841BA69A8805DB9B858;
+			remoteInfo = "Pods-JAAudioFormat_Example";
+		};
+		B3753044FEDE3390A319720CA41F06BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F7CF0C4A874DD0E890684E1DABFD43;
+			remoteInfo = JAAudioFormat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E0B294162F1520BF9B0A5CB8803C94 /* Pods-JAAudioFormat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAAudioFormat_Tests-dummy.m"; sourceTree = "<group>"; };
+		0987A70237AEB2967F9463C2A1F9F479 /* ExtAudioConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExtAudioConverter.m; path = JAAudioFormat/Classes/ExtAudioConverter.m; sourceTree = "<group>"; };
+		17111EBCE8816312C218EC1199B5B1A0 /* Pods-JAAudioFormat_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAAudioFormat_Example-Info.plist"; sourceTree = "<group>"; };
+		1C92916ACDC361E7D37860D266402A7F /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame.h; path = JAAudioFormat/Classes/lame.h; sourceTree = "<group>"; };
+		2173FFC37A289B9B142789911DEB083F /* Pods_JAAudioFormat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JAAudioFormat_Tests.framework; path = "Pods-JAAudioFormat_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2457AE7FC9B676266A3C26E7A97580D0 /* Pods_JAAudioFormat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JAAudioFormat_Example.framework; path = "Pods-JAAudioFormat_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20E6361056EDE4933F7DD102E234CF /* Pods-JAAudioFormat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAAudioFormat_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C4CD98BBEDCEEDF8D6A1CFB1BE1048A /* JAAudioFormat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAAudioFormat-prefix.pch"; sourceTree = "<group>"; };
+		30BC22B8265B92DBF98298A645A6ADEA /* JAAudioFormat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JAAudioFormat-Info.plist"; sourceTree = "<group>"; };
+		3970DB599778A188C2F93EB65F5B5919 /* JAAudioFormat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JAAudioFormat.modulemap; sourceTree = "<group>"; };
+		3CDD92418DA47DBAF606431AF161D228 /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmp3lame.a; path = JAAudioFormat/Libs/libmp3lame.a; sourceTree = "<group>"; };
+		3D4604B9FD415EE240D4F524BFA1C25A /* ExtAudioConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtAudioConverter.h; path = JAAudioFormat/Classes/ExtAudioConverter.h; sourceTree = "<group>"; };
+		41FCCC9BA1291BB7D01FB94BD184FA29 /* Pods-JAAudioFormat_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAAudioFormat_Tests-Info.plist"; sourceTree = "<group>"; };
+		42760CD201BD0DFEFB919452F4CFFCB5 /* JAAudioFormat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAAudioFormat.release.xcconfig; sourceTree = "<group>"; };
+		45AC7966D12C42DFC3EDE97F3BB0AAF9 /* Pods-JAAudioFormat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAAudioFormat_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		610D23EC37CAD7509738442C65DB5B97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6326EF0F25F8B6D0CE7CA434A23E2FE7 /* JAAudioFormat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JAAudioFormat.framework; path = JAAudioFormat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D56601C0CC50419E17E283980FA2E97 /* JAAudioFormat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JAAudioFormat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		901ECC0AD409EA7AE11C3FDA189F45CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		95CADB2B16EE38F09A4F972F64A07F1A /* Pods-JAAudioFormat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAAudioFormat_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A365089B469D901E69FA0F7417822EA5 /* Pods-JAAudioFormat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAAudioFormat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7AF4BD2649D12E6106823AE3B0BF53D /* Pods-JAAudioFormat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAAudioFormat_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ABB3B599AB3B17B28477AD48F101F00E /* Pods-JAAudioFormat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAAudioFormat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF267406E94C218399276AEF170C5628 /* Pods-JAAudioFormat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAAudioFormat_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B14CE7B1D50735223AD377CA6FD2151B /* Pods-JAAudioFormat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAAudioFormat_Example-dummy.m"; sourceTree = "<group>"; };
+		C08614096FCBB0AE87458C60882A917A /* JAAudioFormat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JAAudioFormat-dummy.m"; sourceTree = "<group>"; };
+		C8C1ADE895FF9FD0B4D2F87DB5CA1385 /* Pods-JAAudioFormat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAAudioFormat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBA687C01CDBAF498C29439EAFD1E706 /* JAAudioFormat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAAudioFormat-umbrella.h"; sourceTree = "<group>"; };
+		EC6B3B93D9C31C93E8D1D83F3C0ECA5D /* Pods-JAAudioFormat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAAudioFormat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF747C71A3ABC7BEC5E2E41AA6E88AD8 /* Pods-JAAudioFormat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAAudioFormat_Tests.modulemap"; sourceTree = "<group>"; };
+		F1BC99EFFED99D80F986FDC0F0F2DA13 /* Pods-JAAudioFormat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAAudioFormat_Example.modulemap"; sourceTree = "<group>"; };
+		F536ED406B1F21E9DA418E18D7AEB4CC /* JAAudioFormat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAAudioFormat.debug.xcconfig; sourceTree = "<group>"; };
+		FD5710AFFA71A1856D3156399628ADF6 /* Pods-JAAudioFormat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAAudioFormat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27781B69F8F470BA4252203EAEF31CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549B46DD70C1BC129635C3A328B39DDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051623BF57DA134C00B295AC5EFF074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2884144A4BB2F0E4885292AAF81F2B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AF8EECA924A1948F7743F5752D9741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F382795E4B07E49877535A5AE5D2A44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B6431431E98B860543E50D2C2C80EAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3970DB599778A188C2F93EB65F5B5919 /* JAAudioFormat.modulemap */,
+				C08614096FCBB0AE87458C60882A917A /* JAAudioFormat-dummy.m */,
+				30BC22B8265B92DBF98298A645A6ADEA /* JAAudioFormat-Info.plist */,
+				2C4CD98BBEDCEEDF8D6A1CFB1BE1048A /* JAAudioFormat-prefix.pch */,
+				DBA687C01CDBAF498C29439EAFD1E706 /* JAAudioFormat-umbrella.h */,
+				F536ED406B1F21E9DA418E18D7AEB4CC /* JAAudioFormat.debug.xcconfig */,
+				42760CD201BD0DFEFB919452F4CFFCB5 /* JAAudioFormat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JAAudioFormat";
+			sourceTree = "<group>";
+		};
+		1C9A114D6B8282DE0F7AE1870B31DA3A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5992CBA0B33307A1455355E8756FA7BC /* JAAudioFormat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		22710CFDE1E250160804DA91A725CBB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6326EF0F25F8B6D0CE7CA434A23E2FE7 /* JAAudioFormat.framework */,
+				2457AE7FC9B676266A3C26E7A97580D0 /* Pods_JAAudioFormat_Example.framework */,
+				2173FFC37A289B9B142789911DEB083F /* Pods_JAAudioFormat_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51072C2823DEFEDC09E9ABE03B98C1B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4C9C0AEA89B735B0658A9AFFF9C335 /* Pods-JAAudioFormat_Example */,
+				A577C738298224977F6384FD66EBEB67 /* Pods-JAAudioFormat_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		580557693EBA386FA4898456A1E3FACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CDD92418DA47DBAF606431AF161D228 /* libmp3lame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5992CBA0B33307A1455355E8756FA7BC /* JAAudioFormat */ = {
+			isa = PBXGroup;
+			children = (
+				3D4604B9FD415EE240D4F524BFA1C25A /* ExtAudioConverter.h */,
+				0987A70237AEB2967F9463C2A1F9F479 /* ExtAudioConverter.m */,
+				1C92916ACDC361E7D37860D266402A7F /* lame.h */,
+				580557693EBA386FA4898456A1E3FACE /* Frameworks */,
+				68B6460D0068079D7B4B36AC3044D95D /* Pod */,
+				1B6431431E98B860543E50D2C2C80EAD /* Support Files */,
+			);
+			name = JAAudioFormat;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		68B6460D0068079D7B4B36AC3044D95D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7D56601C0CC50419E17E283980FA2E97 /* JAAudioFormat.podspec */,
+				901ECC0AD409EA7AE11C3FDA189F45CC /* LICENSE */,
+				610D23EC37CAD7509738442C65DB5B97 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A577C738298224977F6384FD66EBEB67 /* Pods-JAAudioFormat_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF747C71A3ABC7BEC5E2E41AA6E88AD8 /* Pods-JAAudioFormat_Tests.modulemap */,
+				EC6B3B93D9C31C93E8D1D83F3C0ECA5D /* Pods-JAAudioFormat_Tests-acknowledgements.markdown */,
+				C8C1ADE895FF9FD0B4D2F87DB5CA1385 /* Pods-JAAudioFormat_Tests-acknowledgements.plist */,
+				01E0B294162F1520BF9B0A5CB8803C94 /* Pods-JAAudioFormat_Tests-dummy.m */,
+				41FCCC9BA1291BB7D01FB94BD184FA29 /* Pods-JAAudioFormat_Tests-Info.plist */,
+				A7AF4BD2649D12E6106823AE3B0BF53D /* Pods-JAAudioFormat_Tests-umbrella.h */,
+				FD5710AFFA71A1856D3156399628ADF6 /* Pods-JAAudioFormat_Tests.debug.xcconfig */,
+				AF267406E94C218399276AEF170C5628 /* Pods-JAAudioFormat_Tests.release.xcconfig */,
+			);
+			name = "Pods-JAAudioFormat_Tests";
+			path = "Target Support Files/Pods-JAAudioFormat_Tests";
+			sourceTree = "<group>";
+		};
+		CE4C9C0AEA89B735B0658A9AFFF9C335 /* Pods-JAAudioFormat_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F1BC99EFFED99D80F986FDC0F0F2DA13 /* Pods-JAAudioFormat_Example.modulemap */,
+				ABB3B599AB3B17B28477AD48F101F00E /* Pods-JAAudioFormat_Example-acknowledgements.markdown */,
+				A365089B469D901E69FA0F7417822EA5 /* Pods-JAAudioFormat_Example-acknowledgements.plist */,
+				B14CE7B1D50735223AD377CA6FD2151B /* Pods-JAAudioFormat_Example-dummy.m */,
+				17111EBCE8816312C218EC1199B5B1A0 /* Pods-JAAudioFormat_Example-Info.plist */,
+				95CADB2B16EE38F09A4F972F64A07F1A /* Pods-JAAudioFormat_Example-umbrella.h */,
+				45AC7966D12C42DFC3EDE97F3BB0AAF9 /* Pods-JAAudioFormat_Example.debug.xcconfig */,
+				2C20E6361056EDE4933F7DD102E234CF /* Pods-JAAudioFormat_Example.release.xcconfig */,
+			);
+			name = "Pods-JAAudioFormat_Example";
+			path = "Target Support Files/Pods-JAAudioFormat_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1C9A114D6B8282DE0F7AE1870B31DA3A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				22710CFDE1E250160804DA91A725CBB3 /* Products */,
+				51072C2823DEFEDC09E9ABE03B98C1B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		31A2E23ABE5B150CCC23895D2846D084 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08EA8A6B0FC2739E612E4C4C63522E2 /* ExtAudioConverter.h in Headers */,
+				73C0F6C1977C26F2E5245F4BA28B7C1D /* JAAudioFormat-umbrella.h in Headers */,
+				604DDE8597696745B73455C7A29424DF /* lame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11441204453EEBB2C3B8C2FE38ED25C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF5949456030C86DC7BEBCBCA99E1EF /* Pods-JAAudioFormat_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD3771319CE8AFAB3FBD0FF8D780E93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF42895258FB8BDDABAC5DAFA8904D4 /* Pods-JAAudioFormat_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04F7CF0C4A874DD0E890684E1DABFD43 /* JAAudioFormat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC05EB62FA7AACA0D7ACA0A7BDA43FC /* Build configuration list for PBXNativeTarget "JAAudioFormat" */;
+			buildPhases = (
+				31A2E23ABE5B150CCC23895D2846D084 /* Headers */,
+				F372CFEA9E34100B0F3CD081C6CB7209 /* Sources */,
+				3051623BF57DA134C00B295AC5EFF074 /* Frameworks */,
+				0902AAD1AB85EA870775BD4532F729E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAAudioFormat;
+			productName = JAAudioFormat;
+			productReference = 6326EF0F25F8B6D0CE7CA434A23E2FE7 /* JAAudioFormat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D4C7C15BA0F47309F879E6FAF56769E /* Pods-JAAudioFormat_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC5069E6C9E8C49463AAC95CC6521C7 /* Build configuration list for PBXNativeTarget "Pods-JAAudioFormat_Tests" */;
+			buildPhases = (
+				D11441204453EEBB2C3B8C2FE38ED25C /* Headers */,
+				E552D511B26DBE7EB7C931FD36371D1C /* Sources */,
+				89AF8EECA924A1948F7743F5752D9741 /* Frameworks */,
+				3EA3C312B04A1A65EB1899DE34E1EFD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666AEC0E6B550957725BB3353D49C745 /* PBXTargetDependency */,
+			);
+			name = "Pods-JAAudioFormat_Tests";
+			productName = "Pods-JAAudioFormat_Tests";
+			productReference = 2173FFC37A289B9B142789911DEB083F /* Pods_JAAudioFormat_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEF933F478486841BA69A8805DB9B858 /* Pods-JAAudioFormat_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71128DF7598A6C10C1EAAABF4EB82B57 /* Build configuration list for PBXNativeTarget "Pods-JAAudioFormat_Example" */;
+			buildPhases = (
+				DAD3771319CE8AFAB3FBD0FF8D780E93 /* Headers */,
+				61ECB1CEC64EC05C1879FC5E96DB24A6 /* Sources */,
+				27781B69F8F470BA4252203EAEF31CBB /* Frameworks */,
+				B250536D6E182589083AC564A499FB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D5011F35BE7F837D785776D1820A23D /* PBXTargetDependency */,
+			);
+			name = "Pods-JAAudioFormat_Example";
+			productName = "Pods-JAAudioFormat_Example";
+			productReference = 2457AE7FC9B676266A3C26E7A97580D0 /* Pods_JAAudioFormat_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 22710CFDE1E250160804DA91A725CBB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F7CF0C4A874DD0E890684E1DABFD43 /* JAAudioFormat */,
+				EEF933F478486841BA69A8805DB9B858 /* Pods-JAAudioFormat_Example */,
+				2D4C7C15BA0F47309F879E6FAF56769E /* Pods-JAAudioFormat_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0902AAD1AB85EA870775BD4532F729E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA3C312B04A1A65EB1899DE34E1EFD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B250536D6E182589083AC564A499FB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61ECB1CEC64EC05C1879FC5E96DB24A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BA7F161208211DE45DE8D20BFEDA10 /* Pods-JAAudioFormat_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E552D511B26DBE7EB7C931FD36371D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E224B72B2931ACEC4FCBA79BCD657 /* Pods-JAAudioFormat_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F372CFEA9E34100B0F3CD081C6CB7209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BF318680A854DA7F4EE200EB5E9A5B /* ExtAudioConverter.m in Sources */,
+				95EBD77AD80C2A1040FC604ADA8DEA29 /* JAAudioFormat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		666AEC0E6B550957725BB3353D49C745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JAAudioFormat_Example";
+			target = EEF933F478486841BA69A8805DB9B858 /* Pods-JAAudioFormat_Example */;
+			targetProxy = 56617AD84296A989EFF174B9E1258A53 /* PBXContainerItemProxy */;
+		};
+		8D5011F35BE7F837D785776D1820A23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JAAudioFormat;
+			target = 04F7CF0C4A874DD0E890684E1DABFD43 /* JAAudioFormat */;
+			targetProxy = B3753044FEDE3390A319720CA41F06BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4347DF939FDA1EFD24402EA49140B9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AC7966D12C42DFC3EDE97F3BB0AAF9 /* Pods-JAAudioFormat_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAAudioFormat_Example/Pods-JAAudioFormat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAAudioFormat_Example/Pods-JAAudioFormat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F6B00A580E73F983E12B5F01257E8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF267406E94C218399276AEF170C5628 /* Pods-JAAudioFormat_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAAudioFormat_Tests/Pods-JAAudioFormat_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAAudioFormat_Tests/Pods-JAAudioFormat_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2991C22235E390BB260A172E857AEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42760CD201BD0DFEFB919452F4CFFCB5 /* JAAudioFormat.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JAAudioFormat/JAAudioFormat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JAAudioFormat/JAAudioFormat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/JAAudioFormat/JAAudioFormat.modulemap";
+				PRODUCT_MODULE_NAME = JAAudioFormat;
+				PRODUCT_NAME = JAAudioFormat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CC383AA24B107A1CAF7CFD0B34C086FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C20E6361056EDE4933F7DD102E234CF /* Pods-JAAudioFormat_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAAudioFormat_Example/Pods-JAAudioFormat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAAudioFormat_Example/Pods-JAAudioFormat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9BDAFC95AEA03B72497ECC32B31CDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5710AFFA71A1856D3156399628ADF6 /* Pods-JAAudioFormat_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAAudioFormat_Tests/Pods-JAAudioFormat_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAAudioFormat_Tests/Pods-JAAudioFormat_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F843EA33758510199D2C632952E14AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F536ED406B1F21E9DA418E18D7AEB4CC /* JAAudioFormat.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JAAudioFormat/JAAudioFormat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JAAudioFormat/JAAudioFormat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/JAAudioFormat/JAAudioFormat.modulemap";
+				PRODUCT_MODULE_NAME = JAAudioFormat;
+				PRODUCT_NAME = JAAudioFormat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71128DF7598A6C10C1EAAABF4EB82B57 /* Build configuration list for PBXNativeTarget "Pods-JAAudioFormat_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4347DF939FDA1EFD24402EA49140B9C8 /* Debug */,
+				CC383AA24B107A1CAF7CFD0B34C086FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC5069E6C9E8C49463AAC95CC6521C7 /* Build configuration list for PBXNativeTarget "Pods-JAAudioFormat_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BDAFC95AEA03B72497ECC32B31CDB2 /* Debug */,
+				9F6B00A580E73F983E12B5F01257E8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC05EB62FA7AACA0D7ACA0A7BDA43FC /* Build configuration list for PBXNativeTarget "JAAudioFormat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F843EA33758510199D2C632952E14AB2 /* Debug */,
+				C2991C22235E390BB260A172E857AEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

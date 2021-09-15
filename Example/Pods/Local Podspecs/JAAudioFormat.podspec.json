@@ -1,0 +1,31 @@
+{
+  "name": "JAAudioFormat",
+  "version": "0.1.0",
+  "summary": "A short description of JAAudioFormat.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/漆家佳/JAAudioFormat",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "漆家佳": "lanmemory@163.com"
+  },
+  "source": {
+    "git": "https://github.com/漆家佳/JAAudioFormat.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JAAudioFormat/Classes/**/*",
+  "frameworks": "AudioToolbox",
+  "static_framework": true,
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "vendored_libraries": "JAAudioFormat/Libs/libmp3lame.a"
+}

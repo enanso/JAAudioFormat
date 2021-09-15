@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JAAudioFormat'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JAAudioFormat.'
+  s.summary          = 'OC 音频格式转换'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/漆家佳/JAAudioFormat'
+  s.homepage         = 'https://github.com/enanso/JAAudioFormat'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '漆家佳' => 'lanmemory@163.com' }
-  s.source           = { :git => 'https://github.com/漆家佳/JAAudioFormat.git', :tag => s.version.to_s }
+  s.author           = { 'JABase' => 'Elvan' }
+  s.source           = { :git => 'https://github.com/enanso/JAAudioFormat.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -39,4 +39,17 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # 依赖系统库
+  s.frameworks = 'AudioToolbox'
+  
+  # 静态库标识
+  s.static_framework = true
+  # 主工程配置Enable Bitcode 设置为false
+  s.xcconfig = {'ENABLE_BITCODE' => 'NO'}
+  # pod工程配置支持x86、arm64
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  # 本地静态库
+  s.vendored_libraries = 'JAAudioFormat/Libs/libmp3lame.a'
+  
 end

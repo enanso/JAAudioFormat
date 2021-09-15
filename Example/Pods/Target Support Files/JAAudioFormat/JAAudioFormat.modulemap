@@ -1,0 +1,6 @@
+framework module JAAudioFormat {
+  umbrella header "JAAudioFormat-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00415AFBB4117956466DFCA2 /* Pods_JAAudioFormat_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2878355E83FA4B44727D9 /* Pods_JAAudioFormat_Example.framework */; };
+		21DBBE5526F1EB9A00A3A6A6 /* input.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21DBBE5426F1EB9A00A3A6A6 /* input.wav */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		10C2878355E83FA4B44727D9 /* Pods_JAAudioFormat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAAudioFormat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DBBE5426F1EB9A00A3A6A6 /* input.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = input.wav; sourceTree = "<group>"; };
 		5265CD8827050B1F230E25C0 /* Pods_JAAudioFormat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAAudioFormat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JAAudioFormat_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAAudioFormat_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,14 +60,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6DB2969E10E15DBFDD157E55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6DB2969E10E15DBFDD157E55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		716E1F470A3D87834054B0A1 /* Pods-JAAudioFormat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAAudioFormat_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JAAudioFormat_Tests/Pods-JAAudioFormat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		986361722C25CFCE42CEDC67 /* Pods-JAAudioFormat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAAudioFormat_Tests.release.xcconfig"; path = "Target Support Files/Pods-JAAudioFormat_Tests/Pods-JAAudioFormat_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B0A3F44A8AC18BF03EEAF19F /* JAAudioFormat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JAAudioFormat.podspec; path = ../JAAudioFormat.podspec; sourceTree = "<group>"; };
+		B0A3F44A8AC18BF03EEAF19F /* JAAudioFormat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JAAudioFormat.podspec; path = ../JAAudioFormat.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6DEB8E903C8293E0A585424 /* Pods-JAAudioFormat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAAudioFormat_Example.release.xcconfig"; path = "Target Support Files/Pods-JAAudioFormat_Example/Pods-JAAudioFormat_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC811C9FF298A6F97374FD98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC811C9FF298A6F97374FD98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BE8CDA2737BA1000CD374171 /* Pods-JAAudioFormat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAAudioFormat_Example.debug.xcconfig"; path = "Target Support Files/Pods-JAAudioFormat_Example/Pods-JAAudioFormat_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +105,6 @@
 				716E1F470A3D87834054B0A1 /* Pods-JAAudioFormat_Tests.debug.xcconfig */,
 				986361722C25CFCE42CEDC67 /* Pods-JAAudioFormat_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 		6003F593195388D20070C39A /* Example for JAAudioFormat */ = {
 			isa = PBXGroup;
 			children = (
+				21DBBE5426F1EB9A00A3A6A6 /* input.wav */,
 				6003F59C195388D20070C39A /* JAAppDelegate.h */,
 				6003F59D195388D20070C39A /* JAAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -208,7 +210,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B332D45D4E2F867315DD1850 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +249,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "漆家佳";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6JHY626E93;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DBBE5526F1EB9A00A3A6A6 /* input.wav in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -337,24 +343,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B332D45D4E2F867315DD1850 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JAAudioFormat_Example/Pods-JAAudioFormat_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JAAudioFormat/JAAudioFormat.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JAAudioFormat.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JAAudioFormat_Example/Pods-JAAudioFormat_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -494,11 +482,12 @@
 			baseConfigurationReference = BE8CDA2737BA1000CD374171 /* Pods-JAAudioFormat_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JHY626E93;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JAAudioFormat/JAAudioFormat-Prefix.pch";
 				INFOPLIST_FILE = "JAAudioFormat/JAAudioFormat-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ay.demo.module;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +499,12 @@
 			baseConfigurationReference = B6DEB8E903C8293E0A585424 /* Pods-JAAudioFormat_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JHY626E93;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JAAudioFormat/JAAudioFormat-Prefix.pch";
 				INFOPLIST_FILE = "JAAudioFormat/JAAudioFormat-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ay.demo.module;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
