@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JAAudioFormat_Example' do
+  pod 'JAAudioFormat', :path => '../'
+
+  target 'JAAudioFormat_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
